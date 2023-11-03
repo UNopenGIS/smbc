@@ -1,7 +1,7 @@
 daemon: # Start IPFS daemon (on Raspberry Pi OS)
 	sudo sysctl -w net.core.rmem_max=2500000
 	sudo sysctl -w net.core.wmem_max=2500000
-	ipfs daemon --enable-gc
+	ipfs daemon
 smb: # Smart Maps Bazaar gateway connection
 	watch -n 180 "curl --silent https://unopengis.github.io/smb/connect.sh | sh"
 bw: # bandwidth use monitoring
