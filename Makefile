@@ -5,6 +5,8 @@ daemon: # Start IPFS daemon (on Raspberry Pi OS)
 	ipfs daemon
 console: # console setup for Raspberry Pi OS
 	sudo dpkg-reconfigure console-setup
+connectme: # create connect commands to self
+	ipfs id | jq '.Addresses.[] | .' | ruby -ne 'puts "ipfs swarm connect #{$_}" unless /(127.0.0.1|::1)/.match($_)'
 smb: # Smart Maps Bazaar gateway connection
 	watch -n 180 "curl --silent https://unopengis.github.io/smb/connect.sh | sh"
 bw: # bandwidth use monitoring
