@@ -32,3 +32,39 @@ ota shibuya toshima yokohama niigata matsumoto numazu-a numazu-b naha # optgeo/p
 	ipfs pin add --progress QmTUrkw3j7PPyizAbjZPxT6SCWf37fmvDYPbpfZ4t99sAn
 sapporo: 
 	ipfs pin add --progress QmUhu8CX1U7mkQDoFMb4pt2ZAXJpwJhXiahtyxV2kftmqz
+iwaki:
+	ipfs pin add --progress QmNpsj2GuK6N2yuh8G9Q7DkfGLUFAndnYY7exPVZwPyyaq
+utsunomiya:
+	ipfs pin add --progress QmQDbmU11qDLik8gixmUokLsCcER74HHWCQtLnaafuttN6
+moroyama:
+	ipfs pin add --progress QmYDEMzckbrWSzCHWGAM2icrZhtHQp9mQkZCuvHQ1EzRjn
+chiyoda:
+	ipfs pin add --progress QmRDCc2nxZjtwxQjWB85KdHDctsojiB6pYbmR8PfSXVjJH
+chuo:
+	ipfs pin add --progress QmUcFnzK2XtEnd5dpRdypemUCctWycn6Afxa526NQDFH5d
+minato:
+	ipfs pin add --progress QmSr9Xu73TokC7RY6WrY9MAfhgNScz99JgZpPAKG6jN8BH
+shinjuku:
+	ipfs pin add --progress QmfR45fxt3xE6hUBB7wm32iBaHAEjtbYBCxtVSb8fnhics
+koto:
+	ipfs pin add --progress QmfUpGbMaTNA1jE8jDuFNVjRipzPknrn6ziugDzrDdBfwz
+shinagawa:
+	ipfs pin add --progress QmczdLdfKRXM4zXyvL4UB8QLFrAexkdQdiRw9nyDHxQpEx
+ota:
+	ipfs pin add --progress QmbtE3mBUPzdkrSLPQJp3kXtCmJE8YgCGy6cL6sq1heF68
+shibuya:
+	ipfs pin add --progress QmWK1h24FDmxfvJoB7WY7VVzu5yYB85vHXz2HW9edq5MAc
+toshima:
+	ipfs pin add --progress QmTMZwC7uZX7myNmj5tR1TVHSmFWaMB376wWLSotr2LcDA
+yokohama:
+	ipfs pin add --progress QmZG3Pbjs9PFEvfP7YXggBrf4j52yT1ZpnE9GtZhbyqJPV
+niigata:
+	ipfs pin add --progress QmZMJXMUhL1xYhtXXm6rkH124C2YLDrJwsrNtzdiUF6Axw
+matsumoto:
+	ipfs pin add --progress QmXWTHRDP45FxkscH593pRS8NVYctEHJW7nLA2XoZAmugX
+numazu-a:
+	ipfs pin add --progress QmYQEaQSbiwaZaePfR3NJ5diWZwWFs6YaB3NzPft6jY37G
+numazu-b:
+	ipfs pin add --progress QmVVT4K6SGQxguxC3vy9FCdkSHMyAAHzSfwCduReo2bL37
+naha:
+	ipfs pin add --progress QmZR1zZUFpjyXWKTCHyoHxWHaDbt8bUNW1rP1ygo1ACLmU
