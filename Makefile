@@ -23,7 +23,7 @@ pmb: # optgeo/pmb
 	ipfs pin add --progress QmdPqXGTh1hLdkkPqjLdaJFG1rA8c3UEtUbx1e95pLvtTG
 ada: # amx-project/ada
 	ipfs pin add --progress QmSq4BdQEC3GmvpJ6MXWujEog72f6d7FwXYqhh7pN9M3Yp
-helsinki: # optgeo/helsinki-laser
+helsinki: # optgeo/helsinki-laser 7.50GB
 	ipfs pin add --progress QmXYBL9eeeB3VXc5sFhU3AySbJQevD29Nfu4ycd4RZsfA7
 honolulu: # optgeo/honolulu-laser 50.35GB
 	ipfs pin add --progress QmY4qPUUJ592cqL1kJLS9Fv4QqrND9nLKCvd5J4qm489Wz
