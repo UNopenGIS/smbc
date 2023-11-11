@@ -68,3 +68,5 @@ numazu-b:
 	ipfs pin add --progress QmVVT4K6SGQxguxC3vy9FCdkSHMyAAHzSfwCduReo2bL37
 naha:
 	ipfs pin add --progress QmZR1zZUFpjyXWKTCHyoHxWHaDbt8bUNW1rP1ygo1ACLmU
+iwaki11: # 616.94MB
+	ipfs pin add --progress QmX7ADs7BcBDTNz6eWg8Z1RT6WyoUxQ2NtgWcZWnm75S2i 
