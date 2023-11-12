@@ -70,3 +70,6 @@ naha:
 	ipfs pin add --progress QmZR1zZUFpjyXWKTCHyoHxWHaDbt8bUNW1rP1ygo1ACLmU
 iwaki11: # 616.94MB
 	ipfs pin add --progress QmX7ADs7BcBDTNz6eWg8Z1RT6WyoUxQ2NtgWcZWnm75S2i 
+fi: # amx-project/fi 126MB
+	ipfs pin add --progress QmVfnLr4vKsP4S4HyHDwa18ctPLa8kKFYgjwHKHV2VcbGt
+
