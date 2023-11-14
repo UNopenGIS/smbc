@@ -72,4 +72,5 @@ iwaki11: # 616.94MB
 	ipfs pin add --progress QmX7ADs7BcBDTNz6eWg8Z1RT6WyoUxQ2NtgWcZWnm75S2i 
 fi: # amx-project/fi 126MB
 	ipfs pin add --progress QmVfnLr4vKsP4S4HyHDwa18ctPLa8kKFYgjwHKHV2VcbGt
-
+sf: # amx-project/sf 5.3MB
+	ipfs pin add --progress QmYsNiPd72agz3s9FdfihZFiRUVUaPYMHqV9FiizyMDgQ9
