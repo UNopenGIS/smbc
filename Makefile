@@ -1,8 +1,10 @@
-daemon: # Start IPFS daemon (on Raspberry Pi OS)
+prepare: # Prepare on Raspberry Pi OS)
 	sudo sysctl -w net.core.rmem_max=2500000
 	sudo sysctl -w net.core.wmem_max=2500000
 	sudo sysctl -w vm.swappiness=0
-	ipfs daemon
+daemon: # Start IPFS daemon
+	while true; do timeout -s INT 7200 ipfs daemon; done 
+	#killall make daemon
 console: # console setup for Raspberry Pi OS
 	sudo dpkg-reconfigure console-setup
 connectme: # create connect commands to self
