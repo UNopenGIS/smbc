@@ -21,6 +21,8 @@ ngs: # optgeo/ngs
 	ipfs pin add --progress QmdAr2FWQKCVv7CAcLRuTBt1583Qi7DA4gaA92g3ujeL1v
 c2: # optgeo/c2
 	ipfs pin add --progress QmTU8chHFkydjc5XZoNVT3TQ1xEHP5zpJ4wzYktrPd1aWD
+c2k: # optogeo/c2 for ngs
+	ipfs pin add --progress QmPhPaV3UqjQFY5JAaRy4fQJY2nc5XEbgbSJLQ2A95udWi
 pmb: # optgeo/pmb
 	ipfs pin add --progress QmdPqXGTh1hLdkkPqjLdaJFG1rA8c3UEtUbx1e95pLvtTG
 ada: # amx-project/ada
