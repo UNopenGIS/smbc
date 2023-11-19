@@ -1,13 +1,12 @@
-prepare: # Prepare on Raspberry Pi OS)
+prepare: # Prepare on Raspberry Pi OS
 	sudo sysctl -w net.core.rmem_max=2500000
 	sudo sysctl -w net.core.wmem_max=2500000
 	sudo sysctl -w vm.swappiness=0
-daemon: # Start IPFS daemon 86400
+daemon: # Start IPFS daemon (86400 sec. is 1 day.)
 	while timeout --preserve-status -s INT 86400 ipfs daemon; do :; done 
-	#killall make daemon
 console: # console setup for Raspberry Pi OS
 	sudo dpkg-reconfigure console-setup
-connectme: # create connect commands to self
+connectme: # create ipfs swarm connect commands to self
 	ipfs id | jq '.Addresses[] | .' | ruby -ne 'puts "ipfs swarm connect #{$$_}" unless /(127.0.0.1|::1)/.match($$_)'
 smb: # Smart Maps Bazaar gateway connection
 	watch -n 180 "curl --silent https://unopengis.github.io/smb/connect.sh | sh"
