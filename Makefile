@@ -1,4 +1,4 @@
-IPFS_PIN_CMD=$(IPFS_PIN_CMD)
+IPFS_PIN_CMD=ipfs pin add --progress --recursive
 
 prepare: # Prepare on Raspberry Pi OS
 	if grep -q 'rpi' /proc/version; then \
