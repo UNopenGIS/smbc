@@ -1,3 +1,4 @@
+SHELL:=/bin/bash
 IPFS_PIN_CMD=ipfs pin add --progress --recursive
 
 prepare: # Prepare on Raspberry Pi OS
