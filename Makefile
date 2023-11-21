@@ -1,7 +1,7 @@
 IPFS_PIN_CMD=ipfs pin add --progress --recursive
 
 prepare: # Prepare on Raspberry Pi OS
-	if grep -q 'rpi' /proc/version; then \
+	if [[ `uname -a` =~ "rpi" ]]; then \
 		sudo sysctl -w net.core.rmem_max=2500000; \
 		sudo sysctl -w net.core.wmem_max=2500000; \
 		sudo sysctl -w vm.swappiness=0; \
